@@ -1,9 +1,6 @@
-# note_taker_app
-A user-friendly note-taking app for small business owners that allows them to easily write, save, organize, and edit notes, ensuring efficient task management and clear thought organization.
-
 # Note Taker App
 
-The Note Taker App is a user-friendly note-taking application designed to help small business owners organize their thoughts, keep track of tasks, and enhance productivity. It provides a seamless and intuitive interface for creating, editing, and saving notes.
+The Note Taker App is a user-friendly note-taking application designed to help individuals organize their thoughts, keep track of tasks, and enhance productivity. It provides a seamless and intuitive interface for creating, editing, and saving notes.
 
 ## Features
 
@@ -32,15 +29,8 @@ The Note Taker App is built using the following technologies:
 
 ## Screenshots
 
-![Landing Page](/screenshots/landing-page.png)
+![Landing Page](/miniature-eureka/Develop/public/assets/note_app.png)
 *Figure 1: Landing Page*
-
-![Notes Page](/screenshots/notes-page.png)
-*Figure 2: Notes Page*
-
-## Contributing
-
-Contributions to the Note Taker App are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
 ## License
 
