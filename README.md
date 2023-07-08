@@ -32,6 +32,9 @@ The Note Taker App is built using the following technologies:
 ![Landing Page](/miniature-eureka/Develop/public/assets/note_app.png)
 *Figure 1: Landing Page*
 
+## Demo Video Link:
+https://drive.google.com/file/d/1WikuLLaaC-iwrg1BHbl1ZId_1pKqxDTS/view
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
