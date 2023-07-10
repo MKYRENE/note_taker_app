@@ -29,7 +29,7 @@ The Note Taker App is built using the following technologies:
 
 ## Screenshots
 
-![Landing Page](/miniature-eureka/Develop/public/assets/note_app.png)
+![Landing Page](/public/assets/note_app.png)
 *Figure 1: Landing Page*
 
 ## Demo Video Link:
