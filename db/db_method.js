@@ -7,11 +7,11 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
 class API_method {
   read() {
-    return readFileAsync('/db.json'), 'utf-8');
+    return readFileAsync('/db.json', 'utf-8');
   }
 
   write(data) {
-    return writeFileAsync('/db.json'), data);
+    return writeFileAsync('/db.json', data);
   }
 }
 
