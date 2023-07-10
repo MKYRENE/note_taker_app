@@ -24,9 +24,7 @@ router.post('/notes', (req, res) => {
     .then(updatedNotes => {
       return methods.write(updatedNotes);
     })
-    .then(() => {
-      res.json(newNote);
-    })
+    .then(() => res.json(newNote))
     .catch(err => {
       res.status(500).json({ error: 'Failed to save note.' });
     });
