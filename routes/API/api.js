@@ -3,11 +3,11 @@ const methods = require('../../db/db_method.js');
 
 
 // Routes
-router.get('/notes', async (req, res) => {
+router.get('/notes',  (req, res) => {
   methods.read().then(notes => res.json(notes));
 });
 
-router.post('/notes', async (req, res) => {
+router.post('/notes', (req, res) => {
   console.log(req.body); // Log the req.body for debugging purposes
 
   const newNote = {
@@ -22,7 +22,7 @@ router.post('/notes', async (req, res) => {
       return parsedNotes;
     })
     .then(updatedNotes => {
-      return methods.write(JSON.stringify(updatedNotes));
+      return methods.write(updatedNotes);
     })
     .then(() => {
       res.json(newNote);
